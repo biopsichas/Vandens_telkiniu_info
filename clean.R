@@ -46,4 +46,3 @@ mon_data <- bind_rows(mon_data, lakes) %>%
   left_join(wb_to_mst, by = c("StationID"="st_kodas"))
 
 rm(lakes1, lakes2, lakes)
-
